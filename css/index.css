@@ -1,0 +1,222 @@
+body, .right-sub-content > div > p,
+.left-sub-content > p, .cmt > div > div > h4
+{
+    margin: 0;
+    font-size: 15px;
+}
+
+.bg-content
+{
+    max-width: 1100px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 20px auto;
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat , no-repeat;
+    background-position: -30px -50px, 15px 90px;
+}
+
+.content
+{
+    max-width: 850px;
+    padding: 60px 0;
+}
+
+.content-1, .content-2, .cmt > div,
+.right-sub-content > div
+{
+    display: flex;
+}
+
+.left-sub-content, .right-sub-content,
+.content
+{
+    margin: auto;
+}
+
+.left-sub-content, .content-2 > div
+{
+    max-width: 100%;
+}
+
+.right-sub-content, .left-sub-content
+{
+    padding-right: 65px;
+}
+
+.right-sub-content, .right-sub-content > div
+{
+    width: 100%;
+}
+
+.right-sub-content > div
+{
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.star
+{
+    background-image: url(/images/icon-star.svg);
+    background-repeat: space;
+    height: 16px;
+    width: 100px;
+    margin: 0 20px;
+}
+
+.sub-1, .sub-2
+{
+    margin-bottom: 15px;
+}
+
+.sub-2
+{
+    margin-left: 30px;
+}
+
+.sub-3
+{
+    margin-left: 60px;
+}
+
+.cmt-1, .cmt-2
+{
+    margin-right: 20px;
+}
+
+.cmt-2
+{
+    margin-top: 15px;
+}
+
+.cmt-3
+{
+    margin-top: 30px;
+}
+
+.left-sub-content > h1
+{
+    margin: 15px 0;
+    line-height: 40px;
+    font-size: 50px;
+}
+
+.content-2
+{
+    margin: 30px auto 0 auto;
+}
+
+.content-2 > div
+{
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px 30px 0;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.cmt > div > img
+{
+    height: 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cmt > div > div
+{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.cmt > div > div > h4, .cmt > p
+{
+    color: hsl(300, 24%, 96%);
+}
+
+.cmt > div > div > span
+{
+    color: hsl(333, 80%, 67%);
+}
+
+.left-sub-content > p
+{
+    color: hsl(303, 10%, 53%);
+}
+
+body
+{
+    background-color: antiquewhite;
+}
+
+.right-sub-content > div > p, .left-sub-content > h1
+{
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+}
+
+.cmt > div > div > h4, .cmt > p,
+.left-sub-content > p
+{
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 900px) 
+{
+    .bg-content
+    {
+        margin: 0;
+        background-size: contain, cover;
+        background-position: 30px -50px, 0 100%;
+    }
+
+    .content
+    {
+        width: 400px;
+        padding: 60px;
+    }
+
+    .content-1, .content-2, .right-sub-content > div
+    {
+        text-align: center;
+        display: block;
+    }
+
+    .right-sub-content > div > div,
+    .sub-1, .sub-2, .sub-3, .cmt
+    {
+        margin: 10px auto;
+    }
+
+    .right-sub-content, .left-sub-content
+    {
+        padding: 0 40px;
+    }
+
+    .right-sub-content
+    {
+        width: auto;
+    }
+
+    .content-2
+    {
+        padding: 0 40px;
+        text-align: left;
+    }
+
+    .content-2 > div
+    {
+        height: 180px;
+        padding: 20px 40px 0;
+    }
+    
+    .left-sub-content > h1
+    {
+        line-height: 30px;
+        font-size: 40px;
+    }
+
+    .right-sub-content > div > p
+    {
+        margin: 5px 0;
+    }
+}
